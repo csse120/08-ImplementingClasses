@@ -21,12 +21,12 @@ def main():
     run_test_closer_to()
     run_test_halfway_to()
 
-################################################################################
+###############################################################################
 # IMPORTANT:
 #   Your instructor will help you get started on this exercise.
-################################################################################
+###############################################################################
 
-# ------------------------------------------------------------------------------
+# -----------------------------------------------------------------------------
 # TODO: 2.          With your instructor, READ THE INSTRUCTIONS in
 # TODO (continued)  in file  m0_INSTRUCTIONS.txt, asking questions as needed.
 #
@@ -37,12 +37,12 @@ def main():
 #          """ Brief description of what objects of the class 'are'."""
 #
 #   Run the program and correct any syntax (notational) errors.
-# ------------------------------------------------------------------------------
+# -----------------------------------------------------------------------------
 
-################################################################################
+###############################################################################
 # NOTE: For ALL of the methods that you implement, the method is allowed
 # to have additional side effects as needed by it and/or other methods.
-################################################################################
+###############################################################################
 
 
 def run_test_init():
@@ -91,7 +91,7 @@ def run_test_init():
         print('Expected for p2: 100 -40')
         print('Actual for p2:  ', p2.x, p2.y)
     """
-    # --------------------------------------------------------------------------
+    # -------------------------------------------------------------------------
     # TODO: 3.
     #   a. Read the above specification of the   __init__   method.
     #        Do NOT proceed until you understand WHAT it should do
@@ -116,7 +116,7 @@ def run_test_init():
     #        Make sure that you UNDERSTAND your code and are not just
     #        "pattern matching" from examples.
     #        ASK QUESIONS AS NEEDED.  COMMIT YOUR WORK.
-    # --------------------------------------------------------------------------
+    # -------------------------------------------------------------------------
     print()
     print('-----------------------------------------------------------')
     print('Testing the   __init__   method of the Point class.')
@@ -163,10 +163,10 @@ def run_test_repr():
         print('Expected for p2: Point(100, -40)')
         print('Actual for p2:  ', p2)
     """
-    # --------------------------------------------------------------------------
+    # -------------------------------------------------------------------------
     # TODO: 4.  Follow the same instructions as in _TODO_ 3 above,
     #           but for the  __repr__  method specified above.
-    # --------------------------------------------------------------------------
+    # -------------------------------------------------------------------------
     print()
     print('-----------------------------------------------------------')
     print('Testing the   __repr__   method of the Point class.')
@@ -224,10 +224,10 @@ def run_test_clone():
         print('Expected for p3: Point(777, 555)')
         print('Actual for p3:  ', p3)
    """
-    # --------------------------------------------------------------------------
+    # -------------------------------------------------------------------------
     # TODO: 5.  Follow the same instructions as in _TODO_ 3 above,
     #           but for the  clone  method specified above.
-    # --------------------------------------------------------------------------
+    # -------------------------------------------------------------------------
     print()
     print('-----------------------------------------------------------')
     print('Testing the   clone   method of the Point class.')
@@ -283,13 +283,13 @@ def run_test_move_to():
         print('Expected for p2: Point(0, 222)')
         print('Actual for p2:  ', p2)
         if check_has_no_return is not None:
-            print('** FAILED: This method should NOT return an explicit value;')
-            print('** in fact, it returned:', check_has_no_return)
+            print('** FAILED: This method should NOT return an explicit')
+            print('** value; in fact, it returned:', check_has_no_return)
     """
-    # --------------------------------------------------------------------------
+    # -------------------------------------------------------------------------
     # TODO: 6.  Follow the same instructions as in _TODO_ 3 above,
     #           but for the  move_to  method specified above.
-    # --------------------------------------------------------------------------
+    # -------------------------------------------------------------------------
     print()
     print('-----------------------------------------------------------')
     print('Testing the   move_to   method of the Point class.')
@@ -346,13 +346,13 @@ def run_test_move_by():
         print('Expected for p2: Point(150, 320)')
         print('Actual for p2:  ', p2)
         if check_has_no_return is not None:
-            print('** FAILED: This method should NOT return an explicit value;')
-            print('** in fact, it returned:', check_has_no_return)
+            print('** FAILED: This method should NOT return an explicit')
+            print('** value; in fact, it returned:', check_has_no_return)
         """
-    # --------------------------------------------------------------------------
+    # -------------------------------------------------------------------------
     # TODO: 7.  Follow the same instructions as in _TODO_ 3 above,
     #           but for the  move_by  method specified above.
-    # --------------------------------------------------------------------------
+    # -------------------------------------------------------------------------
     print()
     print('-----------------------------------------------------------')
     print('Testing the   move_by   method of the Point class.')
@@ -425,11 +425,11 @@ def run_test_get_number_of_moves_made():
         print('Expected for p2 moves made: 5')
         print('Actual for p2 moves made:  ', p2.get_number_of_moves_made())
     """
-    # --------------------------------------------------------------------------
+    # -------------------------------------------------------------------------
     # TODO: 8.  Follow the same instructions as in _TODO_ 3 above,
     #    but for the  get_number_of_moves_made  method specified above.
     # TODO (continued):  HINT: What must a Point REMEMBER for this method?
-    # --------------------------------------------------------------------------
+    # -------------------------------------------------------------------------
     print()
     print('-----------------------------------------------------------')
     print('Testing the   get_number_of_moves_made   method')
@@ -492,10 +492,10 @@ def run_test_get_distance_from():
         print('Expected p2 to p4: 9.0')
         print('Actual   p2 to p4:', p2.get_distance_from(p4))
     """
-    # --------------------------------------------------------------------------
+    # -------------------------------------------------------------------------
     # TODO: 9.  Follow the same instructions as in _TODO_ 3 above,
     #    but for the  get_distance_from  method specified above.
-    # --------------------------------------------------------------------------
+    # -------------------------------------------------------------------------
     print()
     print('-----------------------------------------------------------')
     print('Testing the  get_distance_from  method of the Point class.')
@@ -548,10 +548,10 @@ def run_test_get_distance_from_start():
         print('p2 from start to (1, 1), should be about 0.0')
         print('Actually is:', p2.get_distance_from_start())
     """
-    # --------------------------------------------------------------------------
+    # -------------------------------------------------------------------------
     # TODO: 10.  Follow the same instructions as in _TODO_ 3 above,
     #    but for the  get_distance_from_START  method specified above.
-    # --------------------------------------------------------------------------
+    # -------------------------------------------------------------------------
     print()
     print('-----------------------------------------------------------')
     print('Testing the   get_distance_from_START   method')
@@ -602,10 +602,10 @@ def run_test_get_distance_traveled():
         print('Expected p4 has now traveled 100.0')
         print('Actual:', p4.get_distance_traveled())
     """
-    # --------------------------------------------------------------------------
+    # -------------------------------------------------------------------------
     # TODO: 11.  Follow the same instructions as in _TODO_ 3 above,
     #    but for the  get_distance_traveled  method specified above.
-    # --------------------------------------------------------------------------
+    # -------------------------------------------------------------------------
     print()
     print('-----------------------------------------------------------')
     print('Testing the   get_distance_traveled   method')
@@ -659,10 +659,10 @@ def run_test_closer_to():
         print('Expected: False')
         print('Actual:  ', p1.closer_to(p4, p5) is p5)
     """
-    # --------------------------------------------------------------------------
+    # -------------------------------------------------------------------------
     # TODO: 12.  Follow the same instructions as in TO-DO 3 above,
     #    but for the  closer_to  method specified above.
-    # --------------------------------------------------------------------------
+    # -------------------------------------------------------------------------
     print()
     print('-----------------------------------------------------------')
     print('Testing the   closer_to   method of the Point class.')
@@ -715,17 +715,17 @@ def run_test_halfway_to():
         print('Actual is:', p3.halfway_to(p3))
 
     """
-    # --------------------------------------------------------------------------
+    # -------------------------------------------------------------------------
     # TODO: 13.  Follow the same instructions as in TO-DO 3 above,
     #    but for the  halfway_to  method specified above.
-    # --------------------------------------------------------------------------
+    # -------------------------------------------------------------------------
     print()
     print('-----------------------------------------------------------')
     print('Testing the   halfway_to   method of the Point class.')
     print('-----------------------------------------------------------')
 
 
-# ------------------------------------------------------------------------------
+# -----------------------------------------------------------------------------
 # Calls  main  to start the ball rolling.
-# ------------------------------------------------------------------------------
+# -----------------------------------------------------------------------------
 main()
